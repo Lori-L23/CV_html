@@ -1,0 +1,60 @@
+body{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+ 
+  
+
+.item {
+display: inline-block;
+margin: 4px; 
+max-width: 4%;
+height: 5%;
+margin-right: 2px;
+align-items: end;
+ 
+
+}
+h2{
+    letter-spacing: 2px;
+}
+
+
+.lori {
+    width: 250px;
+    height: 10%;
+    
+    
+}
+.container{
+    display: flex;
+}
+.container .left {
+
+    margin-right: 3rem ;
+    text-align: right;
+}
+.container .left h2{
+    margin-top: 5rem;
+
+   
+}
+.container .left p{
+    color: gray;
+   line-height: 2rem;
+}
+.container .left h4{
+    color: gray;
+   line-height: 2rem;
+}
+.container .right {
+
+    margin-right: 15rem ;
+    
+}
+.container .right h4, h5 {
+    margin-top: 0;
+
+}
+
