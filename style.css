@@ -1,6 +1,7 @@
 body{
     text-align: left;
     font-family: 'Times New Roman', Times, serif; 
+    background-color: aliceblue;
 }
 
  
@@ -22,7 +23,7 @@ h2{
 
 
 .lori {
-    width: 250px;
+    width: 170px;
     height: 10%;
     
     
@@ -31,12 +32,12 @@ h2{
     display: flex;
 }
 .container .left {
-
-    margin-right: 3rem ;
+    margin-left: -30rem;
+    margin-right: 5rem ;
     text-align: right;
 }
 .container .left h2{
-    margin-top: 5rem;
+    margin-top: 2.5rem;
 
    
 }
@@ -50,11 +51,35 @@ h2{
 }
 .container .right {
 
-    margin-right: 15rem ;
+    margin-right: 5rem ;
     
 }
-.container .right h4, h5 {
-    margin-top: 0;
+.container .right h4, h5, ul{
+    margin-top: -1rem;
 
 }
-
+.container .right .chef {
+    margin-left: -1rem;
+}
+.container .right p, ul, h4{
+    color: gray;
+}
+.container .right h5{
+    color: rgb(67, 65, 65);
+}
+.container .right .exp{
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+.container .right h1{
+    font-size: 1.8rem;
+}
+.container .right .chef{
+    margin-left: 0.1rem;
+}
+.container .right ul{
+    margin-left: -1.5rem;
+}
+.container .right hr {
+    color: black;
+}
